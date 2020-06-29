@@ -108,7 +108,7 @@ def coffee_machine_function():
             buy_fill_take = input()
         elif buy_fill_take == "remaining":
             remaining()
-            buy_fill_take = input()()
+            buy_fill_take = input()
         elif buy_fill_take == "fill":
             fill(int(input()), int(input()), int(input()), int(input()))
             buy_fill_take = input()
